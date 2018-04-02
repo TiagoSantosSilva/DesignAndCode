@@ -9,7 +9,7 @@
 import UIKit
 
 class BookmarksViewController: UIViewController {
-
+    
     // MARK: - View Life Cycle
     
     override func viewDidLoad() {

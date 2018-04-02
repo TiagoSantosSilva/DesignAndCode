@@ -9,7 +9,7 @@
 import UIKit
 
 class HomeViewController: UIViewController {
-
+    
     // MARK: - View Life Cycle
     
     override func viewDidLoad() {
@@ -21,5 +21,6 @@ class HomeViewController: UIViewController {
     
     private func setupView() {
         view.backgroundColor = UIColor.appleGreen
+        navigationController?.isNavigationBarHidden = true
     }
 }
