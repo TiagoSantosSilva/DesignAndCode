@@ -10,6 +10,12 @@ import UIKit
 
 class HomeViewController: UIViewController {
     
+    // MARK: - Properties
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
+    
     // MARK: - View Life Cycle
     
     override func viewDidLoad() {
