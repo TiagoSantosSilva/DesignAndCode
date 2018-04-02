@@ -30,6 +30,7 @@ class RootTabBarController: UITabBarController {
     
     private func setupProperties() {
         viewModel = RootTabBarViewModel()
+        tabBar.tintColor = UIColor.appleDeepBlue
     }
     
     private func setupViewControllers() {
