@@ -10,26 +10,25 @@ import UIKit
 
 class RootTabBarController: UITabBarController {
 
+    private var viewModel: RootTabBarViewModelRepresentable!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setupView()
     }
     
     private func setupView() {
+        setupProperties()
         setupViewControllers()
     }
     
+    private func setupProperties() {
+        viewModel = RootTabBarViewModel()
+    }
+    
     private func setupViewControllers() {
-        let firstViewController = FirstViewController()
-        let firstImage = UIImage(named: "first")
-        firstViewController.tabBarItem = UITabBarItem(title: "First", image: firstImage, tag: 0)
         
-        let secondViewController = SecondViewController()
-        let secondImage = UIImage(named: "second")
-        secondViewController.tabBarItem = UITabBarItem(title: "Second", image: secondImage, tag: 1)
-        
-        let viewControllerList = [firstViewController, secondViewController]
-        
+        let viewControllerList = [UIViewController]()
         viewControllers = viewControllerList.map {
             UINavigationController(rootViewController: $0)
         }
