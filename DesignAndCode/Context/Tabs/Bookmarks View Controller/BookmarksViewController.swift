@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  BookmarksViewController.swift
 //  DesignAndCode
 //
 //  Created by Tiago Santos on 02/04/18.
@@ -8,11 +8,9 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class BookmarksViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = UIColor.red
     }
 }
-

@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		272C2D672072BE6200925A33 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272C2D662072BE6200925A33 /* UIColor.swift */; };
 		273A5A5A2072B35F0035276C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273A5A592072B35F0035276C /* AppDelegate.swift */; };
-		273A5A5C2072B35F0035276C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273A5A5B2072B35F0035276C /* FirstViewController.swift */; };
-		273A5A5E2072B35F0035276C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273A5A5D2072B35F0035276C /* SecondViewController.swift */; };
 		273A5A632072B3600035276C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 273A5A622072B3600035276C /* Assets.xcassets */; };
 		273A5A662072B3600035276C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 273A5A642072B3600035276C /* LaunchScreen.storyboard */; };
 		273A5A712072B3610035276C /* DesignAndCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273A5A702072B3610035276C /* DesignAndCodeTests.swift */; };
@@ -19,6 +17,16 @@
 		27F01B882072CB5D00F6AC65 /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F01B872072CB5D00F6AC65 /* TabBarItem.swift */; };
 		27F01B8A2072CD2E00F6AC65 /* RootTabBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F01B892072CD2E00F6AC65 /* RootTabBarViewModel.swift */; };
 		27F01B8F2072D08D00F6AC65 /* TabBarItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F01B8E2072D08C00F6AC65 /* TabBarItemViewModel.swift */; };
+		27F01B972072D5E300F6AC65 /* BookmarksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F01B952072D5E300F6AC65 /* BookmarksViewController.swift */; };
+		27F01B982072D5E300F6AC65 /* BookmarksViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27F01B962072D5E300F6AC65 /* BookmarksViewController.xib */; };
+		27F01B9B2072D5EE00F6AC65 /* ChaptersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F01B992072D5EE00F6AC65 /* ChaptersViewController.swift */; };
+		27F01B9C2072D5EE00F6AC65 /* ChaptersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27F01B9A2072D5EE00F6AC65 /* ChaptersViewController.xib */; };
+		27F01B9F2072D5F900F6AC65 /* ExercisesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F01B9D2072D5F900F6AC65 /* ExercisesViewController.swift */; };
+		27F01BA02072D5F900F6AC65 /* ExercisesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27F01B9E2072D5F900F6AC65 /* ExercisesViewController.xib */; };
+		27F01BA32072D60400F6AC65 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F01BA12072D60400F6AC65 /* HomeViewController.swift */; };
+		27F01BA42072D60400F6AC65 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27F01BA22072D60400F6AC65 /* HomeViewController.xib */; };
+		27F01BA72072D60F00F6AC65 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F01BA52072D60F00F6AC65 /* MoreViewController.swift */; };
+		27F01BA82072D60F00F6AC65 /* MoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27F01BA62072D60F00F6AC65 /* MoreViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,8 +50,6 @@
 		272C2D662072BE6200925A33 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		273A5A562072B35F0035276C /* DesignAndCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignAndCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		273A5A592072B35F0035276C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		273A5A5B2072B35F0035276C /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		273A5A5D2072B35F0035276C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		273A5A622072B3600035276C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		273A5A652072B3600035276C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		273A5A672072B3600035276C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,6 +63,16 @@
 		27F01B872072CB5D00F6AC65 /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
 		27F01B892072CD2E00F6AC65 /* RootTabBarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabBarViewModel.swift; sourceTree = "<group>"; };
 		27F01B8E2072D08C00F6AC65 /* TabBarItemViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarItemViewModel.swift; sourceTree = "<group>"; };
+		27F01B952072D5E300F6AC65 /* BookmarksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksViewController.swift; sourceTree = "<group>"; };
+		27F01B962072D5E300F6AC65 /* BookmarksViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookmarksViewController.xib; sourceTree = "<group>"; };
+		27F01B992072D5EE00F6AC65 /* ChaptersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaptersViewController.swift; sourceTree = "<group>"; };
+		27F01B9A2072D5EE00F6AC65 /* ChaptersViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChaptersViewController.xib; sourceTree = "<group>"; };
+		27F01B9D2072D5F900F6AC65 /* ExercisesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesViewController.swift; sourceTree = "<group>"; };
+		27F01B9E2072D5F900F6AC65 /* ExercisesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExercisesViewController.xib; sourceTree = "<group>"; };
+		27F01BA12072D60400F6AC65 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		27F01BA22072D60400F6AC65 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		27F01BA52072D60F00F6AC65 /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		27F01BA62072D60F00F6AC65 /* MoreViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoreViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,8 +211,11 @@
 		273A5A8F2072B4F90035276C /* Tabs */ = {
 			isa = PBXGroup;
 			children = (
-				273A5A942072B6060035276C /* First View Controller */,
-				273A5A952072B60D0035276C /* Second View Controller */,
+				27F01B922072D5BC00F6AC65 /* Bookmarks View Controller */,
+				27F01B912072D5B500F6AC65 /* Chapters View Controller */,
+				27F01B932072D5C300F6AC65 /* Exercises View Controller */,
+				27F01B902072D5AA00F6AC65 /* Home View Controller */,
+				27F01B942072D5CB00F6AC65 /* More View Controller */,
 			);
 			path = Tabs;
 			sourceTree = "<group>";
@@ -219,22 +238,6 @@
 			path = Root;
 			sourceTree = "<group>";
 		};
-		273A5A942072B6060035276C /* First View Controller */ = {
-			isa = PBXGroup;
-			children = (
-				273A5A5B2072B35F0035276C /* FirstViewController.swift */,
-			);
-			path = "First View Controller";
-			sourceTree = "<group>";
-		};
-		273A5A952072B60D0035276C /* Second View Controller */ = {
-			isa = PBXGroup;
-			children = (
-				273A5A5D2072B35F0035276C /* SecondViewController.swift */,
-			);
-			path = "Second View Controller";
-			sourceTree = "<group>";
-		};
 		27F01B8B2072CD3600F6AC65 /* Enumerations */ = {
 			isa = PBXGroup;
 			children = (
@@ -242,6 +245,51 @@
 				27F01B8E2072D08C00F6AC65 /* TabBarItemViewModel.swift */,
 			);
 			path = Enumerations;
+			sourceTree = "<group>";
+		};
+		27F01B902072D5AA00F6AC65 /* Home View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				27F01BA12072D60400F6AC65 /* HomeViewController.swift */,
+				27F01BA22072D60400F6AC65 /* HomeViewController.xib */,
+			);
+			path = "Home View Controller";
+			sourceTree = "<group>";
+		};
+		27F01B912072D5B500F6AC65 /* Chapters View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				27F01B992072D5EE00F6AC65 /* ChaptersViewController.swift */,
+				27F01B9A2072D5EE00F6AC65 /* ChaptersViewController.xib */,
+			);
+			path = "Chapters View Controller";
+			sourceTree = "<group>";
+		};
+		27F01B922072D5BC00F6AC65 /* Bookmarks View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				27F01B952072D5E300F6AC65 /* BookmarksViewController.swift */,
+				27F01B962072D5E300F6AC65 /* BookmarksViewController.xib */,
+			);
+			path = "Bookmarks View Controller";
+			sourceTree = "<group>";
+		};
+		27F01B932072D5C300F6AC65 /* Exercises View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				27F01B9D2072D5F900F6AC65 /* ExercisesViewController.swift */,
+				27F01B9E2072D5F900F6AC65 /* ExercisesViewController.xib */,
+			);
+			path = "Exercises View Controller";
+			sourceTree = "<group>";
+		};
+		27F01B942072D5CB00F6AC65 /* More View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				27F01BA52072D60F00F6AC65 /* MoreViewController.swift */,
+				27F01BA62072D60F00F6AC65 /* MoreViewController.xib */,
+			);
+			path = "More View Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -348,8 +396,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27F01B9C2072D5EE00F6AC65 /* ChaptersViewController.xib in Resources */,
+				27F01BA02072D5F900F6AC65 /* ExercisesViewController.xib in Resources */,
 				273A5A662072B3600035276C /* LaunchScreen.storyboard in Resources */,
 				273A5A632072B3600035276C /* Assets.xcassets in Resources */,
+				27F01BA82072D60F00F6AC65 /* MoreViewController.xib in Resources */,
+				27F01B982072D5E300F6AC65 /* BookmarksViewController.xib in Resources */,
+				27F01BA42072D60400F6AC65 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,13 +427,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				273A5A5E2072B35F0035276C /* SecondViewController.swift in Sources */,
+				27F01B9B2072D5EE00F6AC65 /* ChaptersViewController.swift in Sources */,
+				27F01B972072D5E300F6AC65 /* BookmarksViewController.swift in Sources */,
 				27F01B882072CB5D00F6AC65 /* TabBarItem.swift in Sources */,
 				272C2D672072BE6200925A33 /* UIColor.swift in Sources */,
+				27F01BA72072D60F00F6AC65 /* MoreViewController.swift in Sources */,
 				27F01B8F2072D08D00F6AC65 /* TabBarItemViewModel.swift in Sources */,
+				27F01BA32072D60400F6AC65 /* HomeViewController.swift in Sources */,
+				27F01B9F2072D5F900F6AC65 /* ExercisesViewController.swift in Sources */,
 				273A5A932072B5F70035276C /* RootTabBarController.swift in Sources */,
 				273A5A5A2072B35F0035276C /* AppDelegate.swift in Sources */,
-				273A5A5C2072B35F0035276C /* FirstViewController.swift in Sources */,
 				27F01B8A2072CD2E00F6AC65 /* RootTabBarViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
