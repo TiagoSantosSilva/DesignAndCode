@@ -10,6 +10,8 @@ import UIKit
 
 class RootTabBarController: UITabBarController {
 
+    // MARK: - Properties
+    
     private var viewModel: RootTabBarViewModelRepresentable!
     
     // MARK: - View Life Cycle
@@ -34,23 +36,23 @@ class RootTabBarController: UITabBarController {
         
         let homeViewController = HomeViewController()
         let homeIcon = viewModel.homeIcons
-        homeViewController.tabBarItem = UITabBarItem(title: homeIcon.title, image: UIImage(named: homeIcon.disabledName), selectedImage: UIImage(named: homeIcon.enabledName))
+        homeViewController.tabBarItem = UITabBarItem(title: homeIcon.title, image: UIImageWithOriginalRendering(name: homeIcon.disabledName), selectedImage: UIImageWithOriginalRendering(name: homeIcon.enabledName))
         
         let chaptersViewController = ChaptersViewController()
         let chaptersIcon = viewModel.chaptersIcons
-        chaptersViewController.tabBarItem = UITabBarItem(title: chaptersIcon.title, image: UIImage(named: chaptersIcon.disabledName), selectedImage: UIImage(named: chaptersIcon.enabledName))
+        chaptersViewController.tabBarItem = UITabBarItem(title: chaptersIcon.title, image: UIImageWithOriginalRendering(name: chaptersIcon.disabledName), selectedImage: UIImageWithOriginalRendering(name: chaptersIcon.enabledName))
         
         let bookmarksViewController = BookmarksViewController()
         let bookmarksIcon = viewModel.bookmarksIcons
-        bookmarksViewController.tabBarItem = UITabBarItem(title: bookmarksIcon.title, image: UIImage(named: bookmarksIcon.disabledName), selectedImage: UIImage(named: bookmarksIcon.enabledName))
+        bookmarksViewController.tabBarItem = UITabBarItem(title: bookmarksIcon.title, image: UIImageWithOriginalRendering(name: bookmarksIcon.disabledName), selectedImage: UIImageWithOriginalRendering(name: bookmarksIcon.enabledName))
         
         let exercisesViewController = ExercisesViewController()
         let exercisesIcon = viewModel.exercisesIcons
-        exercisesViewController.tabBarItem = UITabBarItem(title: exercisesIcon.title, image: UIImage(named: exercisesIcon.disabledName), selectedImage: UIImage(named: exercisesIcon.enabledName))
+        exercisesViewController.tabBarItem = UITabBarItem(title: exercisesIcon.title, image: UIImageWithOriginalRendering(name: exercisesIcon.disabledName), selectedImage: UIImageWithOriginalRendering(name: exercisesIcon.enabledName))
         
         let moreViewController = MoreViewController()
         let moreIcon = viewModel.moreIcons
-        moreViewController.tabBarItem = UITabBarItem(title: moreIcon.title, image: UIImage(named: moreIcon.disabledName), selectedImage: UIImage(named: moreIcon.enabledName))
+        moreViewController.tabBarItem = UITabBarItem(title: moreIcon.title, image: UIImageWithOriginalRendering(name: moreIcon.disabledName), selectedImage: UIImageWithOriginalRendering(name: moreIcon.enabledName))
         
         let viewControllerList = [homeViewController, chaptersViewController, bookmarksViewController, exercisesViewController, moreViewController]
         viewControllers = viewControllerList.map {

@@ -28,6 +28,7 @@
 		27F01BA72072D60F00F6AC65 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F01BA52072D60F00F6AC65 /* MoreViewController.swift */; };
 		27F01BA82072D60F00F6AC65 /* MoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27F01BA62072D60F00F6AC65 /* MoreViewController.xib */; };
 		27F01BAD2072DAD400F6AC65 /* TabBarIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F01BAC2072DAD400F6AC65 /* TabBarIcon.swift */; };
+		27F01BB32072E59000F6AC65 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F01BB22072E59000F6AC65 /* UIViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		27F01BA52072D60F00F6AC65 /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
 		27F01BA62072D60F00F6AC65 /* MoreViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoreViewController.xib; sourceTree = "<group>"; };
 		27F01BAC2072DAD400F6AC65 /* TabBarIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarIcon.swift; sourceTree = "<group>"; };
+		27F01BB22072E59000F6AC65 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				272C2D662072BE6200925A33 /* UIColor.swift */,
+				27F01BB22072E59000F6AC65 /* UIViewController.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -461,6 +464,7 @@
 				272C2D672072BE6200925A33 /* UIColor.swift in Sources */,
 				27F01BA72072D60F00F6AC65 /* MoreViewController.swift in Sources */,
 				27F01B8F2072D08D00F6AC65 /* TabBarItemViewModel.swift in Sources */,
+				27F01BB32072E59000F6AC65 /* UIViewController.swift in Sources */,
 				27F01BA32072D60400F6AC65 /* HomeViewController.swift in Sources */,
 				27F01B9F2072D5F900F6AC65 /* ExercisesViewController.swift in Sources */,
 				273A5A932072B5F70035276C /* RootTabBarController.swift in Sources */,
