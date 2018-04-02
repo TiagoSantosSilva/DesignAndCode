@@ -9,33 +9,40 @@
 import Foundation
 
 protocol TabBarItemViewModelRepresentable {
-    var tabBarImage: TabBarItem { get }
-    var imageNames: (String, String) { get }
+    var tabBarItem: TabBarItem { get }
+    var tabBarIcon: TabBarIcon { get }
 }
 
 struct TabBarItemViewModel: TabBarItemViewModelRepresentable {
-    var tabBarImage: TabBarItem
     
-    var imageNames: (String, String) {
-        return getTabBarImageNames()
+    // MARK: - Properties
+    
+    var tabBarItem: TabBarItem
+    
+    var tabBarIcon: TabBarIcon {
+        return getTabBarIcon()
     }
     
-    init(tabBarImage: TabBarItem) {
-        self.tabBarImage = tabBarImage
+    // MARK: - Initalization
+    
+    init(tabBarItem: TabBarItem) {
+        self.tabBarItem = tabBarItem
     }
     
-    private func getTabBarImageNames() -> (String, String) {
-        switch tabBarImage {
+    // MARK: - Accessibility
+    
+    private func getTabBarIcon() -> TabBarIcon {
+        switch tabBarItem {
         case .home:
-            return ("tabbar-home", "tabbar-home-active")
+            return TabBarIcon(title: "Home", enabledName: "tabbar-home-active", disabledName: "tabbar-home")
         case .chapters:
-            return ("tabbar-chapters", "tabbar-chapters-active")
+            return TabBarIcon(title: "Chapters", enabledName: "tabbar-chapters-active", disabledName: "tabbar-chapters")
         case .bookmarks:
-            return ("tabbar-bookmarks", "tabbar-bookmarks-active")
+            return TabBarIcon(title: "Bookmarks", enabledName: "tabbar-bookmarks-active", disabledName: "tabbar-bookmarks")
         case .exercises:
-            return ("tabbar-exercisess", "tabbar-exercises-active")
+            return TabBarIcon(title: "Exercises", enabledName: "tabbar-exercises-active", disabledName: "tabbar-exercises")
         case .more:
-            return ("tabbar-more", "tabbar-more-active")
+            return TabBarIcon(title: "More", enabledName: "tabbar-more-active", disabledName: "tabbar-more")
         }
     }
 }

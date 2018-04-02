@@ -17,9 +17,9 @@ enum TabBarItem {
 }
 
 extension TabBarItem {
-    var imageNames: (String, String) {
+    var tabBarIcon: TabBarIcon {
         let tabBarImageViewModel: TabBarItemViewModelRepresentable
-        tabBarImageViewModel = TabBarItemViewModel(tabBarImage: self)
-        return tabBarImageViewModel.imageNames
+        tabBarImageViewModel = TabBarItemViewModel(tabBarItem: self)
+        return tabBarImageViewModel.tabBarIcon
     }
 }

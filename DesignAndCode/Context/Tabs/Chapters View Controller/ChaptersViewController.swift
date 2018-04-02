@@ -9,8 +9,17 @@
 import UIKit
 
 class ChaptersViewController: UIViewController {
-
+    
+    // MARK: - View Life Cycle
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupView()
+    }
+    
+    // MARK: - Setups
+    
+    private func setupView() {
+        view.backgroundColor = UIColor.appleDeepBlue
     }
 }
